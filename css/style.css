@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(182, 6, 6);
+}
+
+.navbar{
+    display: flex;
+}
+.navitems li{
+    display: flex;
+    float: left;
+}
+.navitems a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.regist{
+    margin-left: 220px;
+}
+
+.empbtn{
+    border-radius: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+    color: black; 
+    margin: 10px;
+}
+
+.don-content{
+   margin-top: 200px;
+   color: white;
+}
+
+.don-content h2{
+    font-size: 40px;
+    font-family: cursive;
+}
+.logbtn{
+    padding: 5px;
+    color:rgb(182, 6, 6) ;
+    border-radius: 8px;
+}
+
+.button-container{
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(182, 6, 6);
+    color: white;
+}
+.navitems form button {
+    display: flex;
+    float: left;
+}
+.table{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+}
+
+.rec_dash_content{
+    margin-left: 250px;
+    margin-top: 100px;
+    padding:10px;
+
+
+}
+.dashcon{
+    margin-right: 20px;
+}
+.search{
+    margin-right: 10px;
+}
+.navbar-light .navbar-brand{
+    color: rgb(182, 6, 6) !important;
+}
+.footer{
+    background-color: rgb(214, 213, 213);
+    color:rgb(182, 6, 6) ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
+}
+.label{
+    color:white;
+    margin-right: 20px;
+
+}
+.hosp{
+    margin-left: 400px;
+    margin-top: 200px;
+}

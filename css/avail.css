@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(182, 6, 6);
+}
+
+
+.navbar{
+    display: flex;
+}
+.navitems li{
+    display: flex;
+    float: left;
+}
+.navitems a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.regist{
+    margin-left: 220px;
+}
+
+
+.regform{
+    width: 60%;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.regform input {
+    width: 30%;
+    clear: both;
+  }
+.inp{
+    border-radius: 3px;
+}
+
+.rec_dash_content{
+    margin-left: 250px;
+    margin-top: 200px;
+    padding:10px;
+
+
+}
+.dashcon{
+    margin-right: 20px;
+}
+.search{
+    margin-right: 10px;
+}
+table{
+    margin-top: 50px;
+    margin-left: 290px;
+    width: 50%;
+    margin-right: 20px;
+    color: white;
+    border-radius: 10px;
+    
+}
+th,td{
+    width: auto;
+    border: 1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    color: #fff;
+
+}
+th{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-custom .navbar-text { 
+    color: green; 
+} 
+.footer{
+    background-color: rgb(214, 213, 213);
+    color:rgb(182, 6, 6) ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
+}
